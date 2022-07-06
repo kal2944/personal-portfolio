@@ -69,7 +69,8 @@ header > .logo {
 .primary-text {
   font-weight: bolder;
   font-size: 47px;
- font-style: normal;
+  font-family: 'Poppins';
+  font-style: normal;
   line-height: 53px;
   color: #172b4d;
   padding-top: 26px;
