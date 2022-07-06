@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -31,15 +32,14 @@ header > .logo {
 }
 
 .headline {
-  
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    font-family: 'Poppins', sans-serif;
-    background-image: url(./images/Background.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 90px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./images/Background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 90px 24px;
 }
 
 .intro {
@@ -66,7 +66,7 @@ header > .logo {
 .primary-text {
   font-weight: bolder;
   font-size: 47px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   font-style: normal;
   line-height: 53px;
   color: #172b4d;
@@ -79,14 +79,14 @@ header > .logo {
   margin-right: 24px;
   padding-top: 10px;
   font-weight: normal;
- font-size: 16px;
- line-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
   padding-right: 3px;
   font-style: normal;
   text-align: justify;
   text-justify: auto;
   width: 90%;
- color: #344563;
+  color: #344563;
 }
 
 .connect {
@@ -98,8 +98,9 @@ header > .logo {
   margin-left: 12px;
   margin-top: 12px;
 }
-.social-anchors{
- display:flex;
+
+.social-anchors {
+  display: flex;
 }
 
 .social-link {
