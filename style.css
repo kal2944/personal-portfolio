@@ -66,9 +66,9 @@ header > .logo {
 }
 
 .primary-text {
-  font-weight: bold;
-  font-size: 40px;
-  font-style: normal;
+  font-weight: bolder;
+  font-size: 47px;
+ font-style: normal;
   line-height: 53px;
   color: #172b4d;
   padding-top: 26px;
@@ -80,14 +80,14 @@ header > .logo {
   margin-right: 24px;
   padding-top: 10px;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+ font-size: 16px;
+ line-height: 24px;
   padding-right: 3px;
   font-style: normal;
   text-align: justify;
   text-justify: auto;
   width: 90%;
-  color: #344563;
+ color: #344563;
 }
 
 .connect {
