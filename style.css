@@ -28,6 +28,7 @@ header > .logo {
 
 .union {
   margin-right: 24px;
+  display: flex;
 }
 
 .headline {
