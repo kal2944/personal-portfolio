@@ -1,5 +1,5 @@
-# mobile-version-skeleton
-this is my personal portfolio.
+# Mobile-version-skeleton
+This is my personal portfolio.
 
 Built With
 -Html/css
