@@ -1,4 +1,4 @@
-# mobile-version-skeleton
+# Mobile-version-skeleton
 this is my personal portfolio.
 
 Built With
