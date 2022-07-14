@@ -1,19 +1,34 @@
 # Mobile-version-skeleton
-this is my personal portfolio.
 
-Built With
--Html/css
--linters
 
-👤 Author1
-GitHub: @kal2944
+> this is my project
 
-🤝 Contributing
+
+## Built With
+
+- Html/css
+- linter
+
+
+
+
+## Authors
+
+👤 **Kalkidan Daniel**
+
+- GitHub: [@kal2944](https://github.com/kal2944)
+
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page.
 
-Show your support
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-License
-This project is MIT licensed.
+
+
+
