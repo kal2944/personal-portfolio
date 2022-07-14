@@ -18,6 +18,12 @@
 
 - GitHub: [@kal2944](https://github.com/kal2944)
 
+👤 **Abrar Hussain**
+
+- GitHub: [@githubhandle](https://github.com/Abrar052)
+- Twitter: [@twitterhandle](https://twitter.com/bc160400820)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
+
 
 ## 🤝 Contributing
 
