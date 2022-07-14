@@ -24,6 +24,16 @@
 - Twitter: [@twitterhandle](https://twitter.com/bc160400820)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
 
+👤 **Abrar Hussain**
+
+- GitHub: [@githubhandle](https://github.com/Abrar052)
+- Twitter: [@twitterhandle](https://twitter.com/bc160400820)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
+
+🤝 Contributing
+=======
+>>>>>>> main
+
 
 ## 🤝 Contributing
 
