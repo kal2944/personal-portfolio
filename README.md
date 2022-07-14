@@ -30,10 +30,6 @@
 - Twitter: [@twitterhandle](https://twitter.com/bc160400820)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
 
-🤝 Contributing
-=======
->>>>>>> main
-
 
 ## 🤝 Contributing
 
