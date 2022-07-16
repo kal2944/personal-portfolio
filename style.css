@@ -190,7 +190,7 @@ p {
   font-size: 0.75rem;
   line-height: 1rem;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: blue;
 }
 
 .buttons__technology {
@@ -207,7 +207,7 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 0.5rem;
-  background: linear-gradient(to right, transparent 50%, #07ff28 50%);
+  background: linear-gradient(transparent 50%, blue 50);
   background-size: 200%;
   background-position: left;
   transition: background-position 0.5s;
@@ -215,7 +215,7 @@ p {
 
 .buttons__main:hover {
   background-position: right;
-  color: #000;
+  color: blue;
   font-weight: 700;
 }
 
@@ -275,7 +275,7 @@ p {
 }
 
 .about-me__text-button:hover {
-  color: #fff;
+  color: blue;
   border: 1px solid blue;
   background-color: #6070ff;
 }
@@ -324,7 +324,7 @@ span {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #000;
+  color: blue;
   margin: 0 12px 0 12px;
 }
 
@@ -370,6 +370,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100%;
 }
 
 .contact-title {
@@ -407,7 +408,7 @@ span {
   width: 260px;
   height: 38px;
   margin-bottom: 20px;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 17px;
   border: none;
   color: #172b4d;
@@ -420,19 +421,19 @@ span {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
+  border-radius: 0;
   padding: 10px 15px;
 }
 
 .btncontact {
-  width: 140px;
-  height: 48px;
+  width: 150px;
+  height: 50px;
   color: #6070ff;
   align-self: flex-start;
-  border-radius: 8px;
+  border-radius: 6px;
   border: none;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
   background-color: white;
 }
 
@@ -497,6 +498,7 @@ span {
     width: 100%;
     height: auto;
     padding: 1rem 9rem;
+    margin-bottom: 1in;
   }
 
   .card1__image1 {
@@ -513,6 +515,7 @@ span {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 1in;
   }
 
   .card1__pictures {
@@ -593,6 +596,7 @@ span {
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 1%;
     }
 
     .contact-title {
@@ -630,7 +634,8 @@ span {
       width: 260px;
       height: 38px;
       margin-bottom: 20px;
-      border-radius: 8px;
+
+      /* border-radius: 8px; */
       font-size: 17px;
       border: none;
       color: #172b4d;
@@ -650,7 +655,7 @@ span {
     .btncontact {
       width: 140px;
       height: 48px;
-      color: #6070ff;
+      color: lightblue;
       align-self: flex-start;
       border-radius: 8px;
       border: none;
@@ -663,7 +668,7 @@ span {
       background-color: #6070ff;
       border: 1px solid white;
       color: white;
-      font-size: 17px;
+      font-size: 500px;
       transition: 100ms;
       cursor: pointer;
     }
