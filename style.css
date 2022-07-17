@@ -627,6 +627,7 @@ span {
     .input-items {
       display: flex;
       flex-direction: column;
+      align-items: center;
       list-style: none;
     }
 
@@ -655,20 +656,20 @@ span {
     .btncontact {
       width: 140px;
       height: 48px;
-      color: lightblue;
-      align-self: flex-start;
+      color: blue;
       border-radius: 8px;
       border: none;
       font-size: 17px;
       font-weight: 500;
       background-color: white;
+      text-align: center;
     }
 
     .btncontact:hover {
-      background-color: #6070ff;
+      background-color: #4053fc;
       border: 1px solid white;
+      font-size: 17px;
       color: white;
-      font-size: 500px;
       transition: 100ms;
       cursor: pointer;
     }
