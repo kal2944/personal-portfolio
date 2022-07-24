@@ -12,18 +12,18 @@
 </head>
 
 <body>
-  <header>
-    <div class="header__links">
-      <a class="logo" href="#"><img src="images/MyLogo.png" alt="logo image"></a>
-    </div>
-    <nav>
-      <a class="menu" href="#"><img src="images/humberger.png" alt="hamburger menu"></a>
-      <ul class="menu__list">
-        <li class="menu__list-item"><a href="#projects">Portfolio</a></li>
-        <li class="menu__list-item"><a href="#about-me">About</a></li>
-        <li class="menu__list-item"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="head">
+      <nav class="navbar">
+        <a class="logo header__links" href="#"><img src="images/MyLogo.png" alt="logo image"></a>
+
+        <ul class="menu__list">
+          <li class="menu__list-item"><a href="#projects">Portfolio</a></li>
+          <li class="menu__list-item"><a href="#about-me">About</a></li>
+          <li class="menu__list-item"><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <a class="menu" href="#"><img src="images/humberger.png" alt="hamburger menu"></a>
+      </nav>
   </header>
   <main>
     <section class="cover">
@@ -251,8 +251,8 @@
               ></textarea>
             </li>
             <li>
-               <input type="submit" class="btncontact" value="Get It Touch" />
-               </li>
+               <button class="btncontact" type="submit">Get in Touch</button>
+            </li>
           </ul>
           <img class="end-line" src="./images/Shape.png" alt="" />
         </form>
