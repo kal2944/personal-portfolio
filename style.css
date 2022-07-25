@@ -649,7 +649,7 @@ span {
       background: #fff;
       border: 1px solid #cfd8dc;
       border-radius: 8px;
-      padding: 10px 14px;
+      padding: 10px 1px;
     }
 
     .btncontact {
@@ -678,4 +678,8 @@ span {
       margin-bottom: 10px;
     }
   }
+}
+
+.hide {
+  display: none;
 }
