@@ -12,21 +12,35 @@
 </head>
 
 <body>
-  <header class="head">
-      <nav class="navbar">
-        <a class="logo header__links" href="#"><img src="images/MyLogo.png" alt="logo image"></a>
-
-        <ul class="menu__list">
-          <li class="menu__list-item"><a href="#projects">Portfolio</a></li>
-          <li class="menu__list-item"><a href="#about-me">About</a></li>
-          <li class="menu__list-item"><a href="#contact">Contact</a></li>
-        </ul>
-        
-        <a class="menu" href="#"><img src="images/humberger.png" alt="hamburger menu"></a>
-      </nav>
+  <div class="body-wrapper">
+    <header class="head">
+    <nav class="navbar">
+      <div class="logo_header">
+        <a class="logo" href="#">Kal</a>
+        <button class="navbar_toggle">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+      </div>
+  
+      
+      <ul class="main_nav" id="maind">
+        <li>
+          <a href="#projects" class="nav_link1">Portfolio</a>
+        </li>
+        <li>
+          <a href="#cover" class="nav_link2">About</a>
+        </li>
+        <li>
+          <a href="#contact-form" class="nav_link3">Contact</a>
+        </li>
+      </ul>
+      
+    </nav>
   </header>
   <main>
-    <section class="cover">
+    <section class="cover" id="cover">
       <h1>I’m Kalkidan <br>Glad to see you!</h1>
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -205,7 +219,7 @@
       </div>
     </section>
      <footer class="cont-background">
-      <section class="contact-form">
+      <section class="contact-form" id="contact-form">
         <form
           class="contact-info"
           action="https://formspree.io/f/mzbonpgj"
@@ -258,6 +272,8 @@
       </section>
     </footer>
   </main>
+</div>
+  <script src="index.js"></script>
 </body>
 
 </html>
