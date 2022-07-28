@@ -4,7 +4,6 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-
 }
 
 .body-wrapper {
@@ -706,12 +705,5 @@ span {
   .end-line {
     margin-top: 50px;
     margin-bottom: 10px;
-  }
-
-  @media (max-width: 768px) {
-    lable.menu__list {
-      font-size: 30px;
-      padding-left: 50px;
-    }
   }
 }
