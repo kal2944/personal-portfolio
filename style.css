@@ -707,3 +707,7 @@ span {
     margin-bottom: 10px;
   }
 }
+
+.hide {
+  display: none;
+}
