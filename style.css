@@ -684,7 +684,6 @@ span {
     width: 260px;
     height: 38px;
     margin-bottom: 20px;
-
     /* border-radius: 8px; */
     font-size: 17px;
     border: none;
@@ -706,8 +705,13 @@ span {
     margin-top: 50px;
     margin-bottom: 10px;
   }
-}
-
-.hide {
-  display: none;
-}
+  .card1__article.active {
+    top: 0;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    background: #fff;
+    width: 1156px;
+    height: 850px;
+    overflow-y: scroll;
+  }
