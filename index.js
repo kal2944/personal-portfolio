@@ -20,4 +20,3 @@ link3.addEventListener('click', () => {
   hamburgerBtn.classList.toggle('active');
   menu.classList.toggle('active');
 });
-
