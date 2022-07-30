@@ -6,10 +6,10 @@ const proInfo = document.querySelector('.proInfo');
 const lang1 = document.querySelector('.lang1');
 const lang2 = document.querySelector('.lang2');
 const lang3 = document.querySelector('.lang3');
-const link1 = document.getElementById('see-live');
-const link2 = document.getElementById('see-source');
+const proLink1 = document.getElementById('see-live');
+const proLink2 = document.getElementById('see-source');
 const close = document.querySelector('.close');
-const seeButton = document.querySelector('.buttons__main buttons__text proj1 proj1"');
+const seeButton = document.querySelector('.see-pro1');
 const seeButton1 = document.querySelector('.see-pro2');
 const seeButton2 = document.querySelector('.see-pro3');
 const seeButton3 = document.querySelector('.see-pro4');
@@ -18,52 +18,52 @@ const projArr = [
   {
     id: 0,
     projTitle: 'Tonic',
-    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    projPic: './src/assets/img/project-1.svg',
+    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2015',
+    projPic: 'images/desktop-card1.svg',
     proInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     lang1: 'HTML',
     lang2: 'CSS',
     lang3: 'JavaScript',
-    link1: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
-    link2: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
+    link1: 'https://github.com/kal2944/mobile-version-skeleton',
+    link2: 'https://github.com/kal2944/mobile-version-skeleton',
   },
 
   {
     id: 1,
     projTitle: 'Multi Post Stories',
-    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    projPic: './src/assets/img/project-2.svg',
+    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2015',
+    projPic: './images/card4.svg',
     proInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     lang1: 'HTML',
     lang2: 'CSS',
     lang3: 'JavaScript',
-    link1: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
-    link2: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
+    link1: 'https://github.com/kal2944/mobile-version-skeleton',
+    link2: 'https://github.com/kal2944/mobile-version-skeleton',
   },
   {
     id: 2,
     projTitle: 'Tonic',
-    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    projPic: './src/assets/img/project-3.svg',
+    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2015',
+    projPic: './images/mobil-card1.svg',
     proInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     lang1: 'HTML',
     lang2: 'CSS',
     lang3: 'JavaScript',
-    link1: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
-    link2: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
+    link1: 'https://github.com/kal2944/mobile-version-skeleton',
+    link2: 'https://github.com/kal2944/mobile-version-skeleton',
   },
 
   {
     id: 3,
     projTitle: 'Multi Post Stories',
-    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    projPic: './src/assets/img/project-4.svg',
+    projDetails: 'Canopy &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2015',
+    projPic: './images/card2.svg',
     proInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     lang1: 'HTML',
     lang2: 'CSS',
     lang3: 'JavaScript',
-    link1: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
-    link2: 'https://github.com/iAmWaris97/iAmWaris97-Portfolio',
+    link1: 'https://github.com/kal2944/mobile-version-skeleton',
+    link2: 'https://github.com/kal2944/mobile-version-skeleton',
   },
 ];
 
