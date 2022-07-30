@@ -8,6 +8,8 @@ function checkEmail(input) {
   if (input !== lower) {
     message.innerText = 'capital letters are not aloud in  email!';
     message.className = 'alert error';
+    document.getElementById('email').style.border = '3px solid red';
+    document.getElementById('email').style.boxShadow = '0 0 10px red';
     return false;
   }
   if (input === lower) {
