@@ -506,11 +506,24 @@ span {
   margin-bottom: 10px;
 }
 
-/* popup mobile */
+/* mobile popup */
 .close button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.lang1,
+.lang2,
+.lang3 {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }
 
 .pop-up {
@@ -589,6 +602,15 @@ a#see-source {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.project-tags ul {
+  gap: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 a#see-live:hover,
@@ -796,18 +818,9 @@ a#see-source:hover {
     margin-top: 50px;
     margin-bottom: 10px;
   }
-  .card1__article.active {
-    top: 0;
-    border: 1px solid #ebecf0;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
-    background: #fff;
-    width: 1156px;
-    height: 850px;
-    overflow-y: scroll;
-  }
-   /* popup style --------------------------------------------------- */
-   .popup-content {
+
+  /* popup style --------------------------------------------------- */
+  .popup-content {
     width: 60%;
     padding-bottom: 100px;
   }
@@ -842,6 +855,10 @@ a#see-source:hover {
     align-items: center;
   }
 
+  .pop-bottom .project-info {
+    width: 70%;
+  }
+
   .popup-content .project-action button {
     padding: 0;
     width: 120px;
@@ -852,5 +869,16 @@ a#see-source:hover {
   .pop-4.active .project-title {
     height: 100px;
     justify-content: space-around;
+  }
+
+  .card1__article.active {
+    top: 0;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    background: #fff;
+    width: 1156px;
+    height: 850px;
+    overflow-y: scroll;
   }
 }
