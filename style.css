@@ -613,6 +613,10 @@ a#see-source {
   margin-bottom: 20px;
 }
 
+.projPic {
+  width: 100%;
+}
+
 a#see-live:hover,
 a#see-source:hover {
   background-color: #f7f7f9;
