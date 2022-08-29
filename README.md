@@ -1,14 +1,15 @@
 # Mobile-version-skeleton
 
 
-> this is my project
-
 
 ## Built With
 
 - Html/css
 - linter
 
+## Live Demo
+
+[Live Demo Link](https://kal2944.github.io/mobile-version-skeleton/)
 
 
 
@@ -23,6 +24,9 @@
 - GitHub: [@githubhandle](https://github.com/Abrar052)
 - Twitter: [@twitterhandle](https://twitter.com/bc160400820)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
+- ## 🤝 Contributing
+
+<<<<<<< version-1
 
 👤 **Abrar Hussain**
 
@@ -32,7 +36,8 @@
 
 
 ## 🤝 Contributing
-
+=======
+>>>>>>> main
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
