@@ -152,11 +152,13 @@ p {
 .card3 {
   display: flex;
   flex-direction: column;
+
   background-color: #e5e5e5;
   padding: 30px 24px 24px 24px;
 }
 
 .card4 {
+
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
@@ -886,4 +888,100 @@ a#see-source:hover {
     height: 850px;
     overflow-y: scroll;
   }
+}
+
+.contact-form {
+  background-image: url(./images/background2.png), url(./images/headermobile.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px 0 0 0;
+}
+
+.cont-background {
+  background-color: white;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-contact {
+  padding: 0 24px;
+  width: 327px;
+  height: 170px;
+  left: 24px;
+  top: 4802px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 38px;
+}
+
+.input-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.inp-form {
+  width: 260px;
+  height: 38px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-size: 17px;
+  border: none;
+  color: #172b4d;
+  padding: 10px 15px;
+}
+
+.text-area {
+  width: 260px;
+  height: 160px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.btncontact {
+  width: 140px;
+  height: 48px;
+  color: #6070ff;
+  align-self: flex-start;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.btncontact:hover {
+  background-color: #6070ff;
+  border: 1px solid white;
+  color: white;
+  font-size: 17px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.end-line {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
