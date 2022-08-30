@@ -18,15 +18,10 @@
 👤 **Kalkidan Daniel**
 
 - GitHub: [@kal2944](https://github.com/kal2944)
+- Twitter: [@twitterhandle](https://twitter.com/Kalkida01088197)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kalkidan-daniel-b2a204238/)
 
-👤 **Abrar Hussain**
 
-- GitHub: [@githubhandle](https://github.com/Abrar052)
-- Twitter: [@twitterhandle](https://twitter.com/bc160400820)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrar-hussain-225589238/)
-- ## 🤝 Contributing
-
-<<<<<<< version-1
 
 👤 **Abrar Hussain**
 
@@ -36,8 +31,7 @@
 
 
 ## 🤝 Contributing
-=======
->>>>>>> main
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
