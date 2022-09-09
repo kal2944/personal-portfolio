@@ -8,7 +8,6 @@
 
 .body-wrapper {
   display: flex;
-
   flex-direction: column;
   min-width: 100%;
   width: 100vw;
@@ -22,11 +21,9 @@
   height: 48px;
   background-color: #fff;
   display: flex;
-
   justify-content: space-between;
   align-items: center;
 }
-
 
 .logo {
   margin-left: 16px;
@@ -90,7 +87,6 @@
 .hamburger-btn.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-
 
 .cover {
   display: flex;
@@ -211,7 +207,6 @@ p {
   line-height: 16px;
   color: #344563;
   margin-left: 1rem;
-
 }
 
 .card1__text-dot {
@@ -225,7 +220,6 @@ p {
   font-size: 13px;
   line-height: 1rem;
   color: #7a869a;
-
 }
 
 .buttons {
@@ -268,7 +262,7 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 0.5rem;
-  background: linear-gradient(transparent 50%, blue 50);
+  background: linear-gradient(transparent 50%, blue);
   background-size: 200%;
   background-position: left;
   transition: background-position 0.5s;
@@ -666,15 +660,12 @@ a#see-source:hover {
   }
 
   .menu__list {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     width: 14rem;
     height: auto;
-
   }
 
   .card1__image1 {
@@ -754,7 +745,6 @@ a#see-source:hover {
     height: auto;
     gap: 0.75rem;
   }
-
 
   .contact-form {
     background-image: url(./images/background2.png), url(./images/headermobile.png);
@@ -895,6 +885,5 @@ a#see-source:hover {
     width: 1156px;
     height: 850px;
     overflow-y: scroll;
-
   }
 }
