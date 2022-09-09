@@ -262,7 +262,7 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 0.5rem;
-  background: linear-gradient(transparent 50%, blue 50);
+  background: linear-gradient(transparent 50%, blue);
   background-size: 200%;
   background-position: left;
   transition: background-position 0.5s;
