@@ -1,4 +1,5 @@
-# Mobile-version-skeleton
+# personal-portfolio
+This is  Microverse portfolio project! In this project I have made the mobile and Desktop version of my portfolio using HTML/CSS.
 
 
 
