@@ -1,10 +1,13 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   text-decoration: none;
   list-style: none;
 }
+
 
 .body-wrapper {
   display: flex;
@@ -92,7 +95,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 35rem;
+  height: 45rem;
   gap: 1rem;
   padding: 0 1.5rem;
   background-image: url("./images/header-shapes-mobile@2x.svg");
@@ -102,9 +105,9 @@
 
 h1 {
   text-align: left;
-  margin-top: 7rem;
+  margin-top: 11rem;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 52px;
   align-items: center;
   color: #172b4d;
@@ -134,6 +137,7 @@ p {
   width: 10rem;
   justify-content: space-between;
   align-items: center;
+  padding: 0%;
 }
 
 .projects {
@@ -255,22 +259,22 @@ p {
 }
 
 .buttons__main {
-  display: flex;
-  justify-content: flex-start;
-  width: 8rem;
-  height: 3rem;
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 0.5rem;
-  background: linear-gradient(transparent 50%, blue);
-  background-size: 200%;
-  background-position: left;
-  transition: background-position 0.5s;
+  font-size: 20px;
+  border: solid 1px #6070ff;
+  color: #6070ff;
+  border-radius: 10px;
+  margin: 20px 0 10px 20px !important;
+  padding: 12px;
+  background-color: #fff;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .buttons__main:hover {
   background-position: right;
-  color: blue;
+  color: white;
+  background-color: #6070ff ;
   font-weight: 700;
 }
 
@@ -330,8 +334,8 @@ p {
 }
 
 .about-me__text-button:hover {
-  color: blue;
-  border: 1px solid blue;
+  color: white;
+  border: 1px solid ;
   background-color: #6070ff;
 }
 
@@ -497,7 +501,7 @@ span {
 }
 
 .btncontact:hover {
-  background: #2230d2;
+  background: #3a4eff;
   color: #fff;
 }
 
@@ -555,7 +559,7 @@ span {
   height: max-content;
   box-sizing: border-box;
   padding: 16px;
-  gap: 12px;
+  gap: 1px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   position: absolute;
@@ -599,6 +603,7 @@ a#see-source {
   gap: 12px;
   width: 343px;
   height: 713px;
+  color: #6070ff;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -619,8 +624,8 @@ a#see-source {
 
 a#see-live:hover,
 a#see-source:hover {
-  background-color: #f7f7f9;
-  color: red;
+  background-color: #6070ff;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -839,6 +844,7 @@ a#see-source:hover {
 
   .pop-top .project-title {
     width: 100%;
+    font-size: large;
   }
 
   .pop-top .snapshoot {
@@ -876,7 +882,8 @@ a#see-source:hover {
     justify-content: space-around;
   }
 
-  .card1__article.active {
+  
+  /* .card1__article.active {
     top: 0;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -885,5 +892,11 @@ a#see-source:hover {
     width: 1156px;
     height: 850px;
     overflow-y: scroll;
+  } */
+}
+
+@media screen and (max-width: 1200px) {
+  .project-card {
+    flex-direction: column;
   }
 }
