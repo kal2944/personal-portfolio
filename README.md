@@ -10,7 +10,7 @@ This is  Microverse portfolio project! In this project I have made the mobile an
 
 ## Live Demo
 
-[Live Demo Link](https://kal2944.github.io/mobile-version-skeleton/)
+[Live Demo Link](https://kal2944.github.io/personal-portfolio/)
 
 
 
