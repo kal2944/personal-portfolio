@@ -178,7 +178,7 @@ p {
 
 .card1__image1 {
   display: flex;
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
@@ -679,7 +679,7 @@ a#see-source:hover {
 
   .card1__image2 {
     display: flex;
-    width: 100%;
+    width: 75%;
     height: auto;
   }
 
@@ -697,7 +697,7 @@ a#see-source:hover {
   }
 
   .card1__article {
-    width: 50%;
+    width: 75%;
     height: auto;
     align-items: flex-start;
   }
